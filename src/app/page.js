@@ -128,6 +128,31 @@ export default function Home() {
           </div>
         </motion.section>
 
+        {/* Portfolio Tech Stack Section */}
+        <motion.section 
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="mb-32 pt-10"
+        >
+          <h2 className="text-sm md:text-base font-semibold text-slate-800 mb-12 text-center tracking-widest uppercase">
+            Tech Stack used for this portfolio
+          </h2>
+          
+          <div className="flex flex-col items-center gap-6 font-bold text-5xl md:text-7xl tracking-tighter">
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-500 cursor-default mb-3">
+              Next.js
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-indigo-500 cursor-default mb-3">
+              Tailwind
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-900 cursor-default lg:mb-12 sm:mb-5">
+              Framer Motion
+            </motion.div>
+          </div>
+        </motion.section>
+
         {/* Projects Section */}
         <motion.section 
           initial={{ opacity: 0, y: 50 }}
