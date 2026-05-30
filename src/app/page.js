@@ -147,7 +147,7 @@ export default function Home() {
             <motion.div whileHover={{ scale: 1.05 }} className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-indigo-500 cursor-default mb-3">
               Tailwind
             </motion.div>
-            <motion.div whileHover={{ scale: 1.05 }} className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-900 cursor-default lg:mb-12 sm:mb-5">
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-900 cursor-default">
               Framer Motion
             </motion.div>
           </div>
