@@ -119,11 +119,8 @@ export default function Home() {
             </div>
           </div>
           <div className="relative">
-            <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] bg-slate-200 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] overflow-hidden relative shadow-xl flex justify-center items-end">
+            <div className="w-[220px] h-[220px] md:w-[320px] md:h-[320px] bg-slate-200 rounded-full overflow-hidden relative shadow-xl">
                <div className="w-full h-full bg-cover bg-center absolute inset-0 opacity-90 mix-blend-multiply" style={{backgroundImage: "url('/img/profile-pic.png')"}}></div>
-               <div className="z-10 bg-white/60 backdrop-blur-md px-4 py-2 rounded-lg mb-8 text-xs font-mono text-slate-800 border border-slate-200/50 shadow-sm font-medium">
-                 {"<Code />"}
-               </div>
             </div>
           </div>
         </motion.section>
