@@ -110,16 +110,21 @@ export default function Home() {
               I am an Information Technology student at PLV who balances a passion for software development with a strong enthusiasm in technical support and networking. From writing scalable codes for applications to configuring secure connections and troubleshooting complex systems, I focus on building reliable, user-centric technology. I treat every challenge as an opportunity to deliver adaptable engineering and practical solutions that work seamlessly.
             </p>
             <div className="flex items-center gap-6">
-              <button className="bg-slate-900 text-white px-6 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-slate-800 transition-colors shadow-md">
+              <a 
+                href="https://drive.google.com/file/d/1xGSRcJsf5U-rz2OU_lq9Zxqlsouo4OBO/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-slate-900 text-white px-6 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-slate-800 transition-colors shadow-md"
+              >
                 Download CV
-              </button>
+              </a>
               <a href="#" className="text-sm text-purple-600 hover:text-purple-500 transition-colors flex items-center gap-2 font-medium">
                 New experiences
               </a>
             </div>
           </div>
           <div className="relative">
-            <div className="w-[220px] h-[220px] md:w-[320px] md:h-[320px] bg-slate-200 rounded-full overflow-hidden relative shadow-xl">
+            <div className="w-[180px] h-[180px] md:w-[320px] md:h-[320px] bg-slate-200 rounded-full overflow-hidden relative shadow-xl">
                <div className="w-full h-full bg-cover bg-center absolute inset-0 opacity-90 mix-blend-multiply" style={{backgroundImage: "url('/img/profile-pic.png')"}}></div>
             </div>
           </div>
